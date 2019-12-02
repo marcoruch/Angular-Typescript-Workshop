@@ -151,23 +151,19 @@ NodeJS
 <br/>
 
 <h3>Angular Architektur</h3>
+Component basiert
 <ul>
-    <li>Component basiert</li>
-    <ul>
     <li>View (Html)</li>
     <li>Code (Controller / JS)</li>
-        <ul>
-            <li>wie eine Klasse</li>
-        </ul>
-    </ul>
-    <li>Stylesheet (Scss wird empfohlen)<li>
+    <li>Stylesheet (Scss wird empfohlen)
     <ul>
         <li>Cleaner</li>
         <li>Variablen</li>
         <li>Logik</li>
         <li>Spezfile</li>
-    </ul>
-    </ul>
+    </ul> 
+    <li>
+    
 </ul>
 <br/>
 
