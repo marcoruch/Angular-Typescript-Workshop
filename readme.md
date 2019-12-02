@@ -124,11 +124,11 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 </pre>
 
 <h4>*ngIf</h4>
-<pre>
+
 ```html
-    <div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div>
+<pre><div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div></pre>
 ```
-</pre>
+
 
 <h4>*ngFor</h4>
 <pre>
