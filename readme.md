@@ -82,12 +82,25 @@ Git / Github verwenden
 
 
 <h2>Angular Architektur</h2>
-- Component basiert
-- - View (Html)
-- - Code (Controller / JS)
-- - - wie eine Klasse
-- - Stylesheet (Scss wird empfohlen - Cleaner & Variablen + Logik + Spez.File)
-
+<ul>
+    <li>Component basiert</li>
+    <ul>
+    <li>View (Html)</li>
+    <li>Code (Controller / JS)</li>
+        <ul>
+            <li>wie eine Klasse</li>
+        </ul>
+    </ul>
+    <li>Stylesheet (Scss wird empfohlen)<li>
+    <ul>
+        <li>Cleaner</li>
+        <li>Variablen</li>
+        <li>Logik</li>
+        <li>Spezfile</li>
+    </ul>
+    </ul>
+</ul>
+  
 => Html Property-Binding zu Controller
 => Eventbinding
 => Alles durch Angular gesteuert (Properties / Events gebunden)
