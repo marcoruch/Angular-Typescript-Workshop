@@ -149,7 +149,7 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 <h3>Starten von App</h3>
 <pre>ng serve --aot</pre><br/>
 
-<desc>Port ist standardmässig 4200</desc>
+<desc>Port ist standardmässig 4200</desc><br/>
 <desc>Erstellt Code der das HTML erstellt ahead of time</desc>
 
 <h3>Veröffentlichen / Build</h3>
@@ -161,9 +161,9 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 <h2>Angular Services</h2>
 
 <h3>Injection</h3>
-Services werden in Components injected
-Services bzw. die Komponenten können sich dann untereinander austauschen
-AppModule muss in Provider-Array alle Services enthalten.
+Services werden in Components injected<br/>
+Services bzw. die Komponenten können sich dann untereinander austauschen<br/>
+AppModule muss in Provider-Array alle Services enthalten.<br/>
 
 <h4>Create Service File</h4>
 <pre>ng generate service MemoryCalc</pre><br/>
