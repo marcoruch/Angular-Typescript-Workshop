@@ -131,12 +131,13 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 
 
 <h4>Property Binding</h4>
-```html 
-<h1>Begrüssung</h1>
-<p [title]="titletext">
-    {{ Name }}
-</p>
 ```
+<h1>Begrüssung</h1> 
+```
+``` 
+<p [title]="titletext">  {{ Name }} </p>
+```
+
 
 
 <h4>Event Binding</h4>
