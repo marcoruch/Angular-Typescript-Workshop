@@ -100,10 +100,13 @@ Git / Github verwenden
     </ul>
     </ul>
 </ul>
-  
-=> Html Property-Binding zu Controller
-=> Eventbinding
-=> Alles durch Angular gesteuert (Properties / Events gebunden)
+<br/>
+
+  <ul>
+ <li> Html Property-Binding zu Controller</li>
+ <li>Eventbinding</li>
+ <li> Alles durch Angular gesteuert (Properties / Events gebunden)</li>
+</ul>
 
 In Angular wird die Klasse (Controller Component) geladen und HTML wird durch sie geladen ("berechnet")
 
@@ -113,17 +116,21 @@ Oberste Component ist immer die App-Component
 Component: app.component.ts (wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar)
 
 <h2>Component</h2>
-- templateUrl => für templateUrl
-- styleUrls => als Array Stylesheets verlinken
-- selector => Präfix wichtig, eindeutig setzen z.B. "CTS" (keine Namespaces, auch hilfreich für AutoImport)
+  <ul>
+<li> templateUrl => für templateUrl</li>
+<li>styleUrls => als Array Stylesheets verlinken</li>
+<li>selector => Präfix wichtig, eindeutig setzen z.B. "CTS" (keine Namespaces, auch hilfreich für AutoImport)</li>
+    </ul>
 
-Components werden verschachtelt und erweitert, endlos (wie Treeview)
-- Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen
-
+Components werden verschachtelt und erweitert, endlos (wie Treeview)<br/>
+<ul>
+<li>Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen</li>
+    </ul>
+    <br/>
 <h3>Binding</h3>
-Alles ist public
-Bindings werden mit eckigen Klammern geschrieben
-Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ Obj.Prop }}) - à la 'innerHtml'
+Alles ist public<br/>
+Bindings werden mit eckigen Klammern geschrieben<br/>
+Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ Obj.Prop }}) - à la 'innerHtml'<br/>
 
 
 <h4>Property Binding</h4>
