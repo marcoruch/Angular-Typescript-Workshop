@@ -144,16 +144,16 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 <h2>Shortcuts</h2>
 
 <h3>Neue Komponente automatisch erstellen</h3>
-ng generate component MyCom
+<pre>ng generate component MyCom</pre>
 
 <h3>Starten von App</h3>
-ng serve --aot
+<pre>ng serve --aot</pre><br/>
 
 <desc>Port ist standardmässig 4200</desc>
 <desc>Erstellt Code der das HTML erstellt ahead of time</desc>
 
 <h3>Veröffentlichen / Build</h3>
-ng build --prod
+<pre>ng build --prod</pre><br/>
 <desc>unbedingt --prod verwenden, da sonst der dev build verwendet wird</desc>
 
 
@@ -166,7 +166,7 @@ Services bzw. die Komponenten können sich dann untereinander austauschen
 AppModule muss in Provider-Array alle Services enthalten.
 
 <h4>Create Service File</h4>
-```html ng generate service MemoryCalc```
+<pre>ng generate service MemoryCalc</pre><br/>
 
 <h4>Vor  </h4>
 
