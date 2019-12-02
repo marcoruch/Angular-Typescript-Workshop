@@ -8,7 +8,8 @@ Typescript wurde aus JavaScript und C# entworfen
 
 <h3>Typen in TypeScript</h3>
 
-Die Basistypen von TS sind gleich wie die von JavaScript <br/>
+Die Basistypen von TS sind gleich wie die von JavaScript ([Erweiterte Liste von TS-Typen](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+)<br/>
 
 <ul>
     <li>Bool (ein Boolesche Wert)</li>
@@ -18,7 +19,6 @@ Die Basistypen von TS sind gleich wie die von JavaScript <br/>
     <li>Any (also Undefinierter Typ, kann alles sein)</li>    
 </ul>
 
-[Erweiterte Liste von TS-Typen](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 
 <h3>Variablentypen in TypeScript deklarieren</h3>
 
