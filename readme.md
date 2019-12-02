@@ -200,6 +200,54 @@ Beispiel der Verwendung des HttpClient-Services für Requests (Post, Get etc.)
 
 ```html ```
 
+<h4>Beispiel eines Services</h4>
+
+```typescript
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { DateTime } from '../models/date-time';
+
+@Injectable({ providedIn: 'root' })
+export class DateTimeService {
+    constructor(private httpClient: HttpClient) { }
+
+    getDateTime(): Observable<Date> {
+        return this.httpClient.get<DateTime>('http://date.jsontest.com/').pipe(
+            map(x => new Date(`${x.date} ${x.time}`))
+        );
+    }
+}
+```
+
+<h4>Verwenden eines Services</h4>
+
+Hier veranschaulicht durch Verwendung des Konstruktors (Instanziierung des Services) und der <br/>
+Lifecycle-Methode ngOnInit:
+
+```typescript
+  constructor(private dateTimeService: DateTimeService) { }
+
+  ngOnInit(): void {
+        this.dateTimeService.getDateTime().subscribe(date => this.datetime = date.toISOString()
+  }
+```
+
+<h4>Angular Lifecycle-Hooks</h4>
+
+[Mehr Lifecycle-Hooks!](https://angular.io/guide/lifecycle-hooks)
+
+Beispiel ngOnInit:
+
+```javascript
+    import { Component, OnInit } from '@angular/core';
+
+    ngOnInit(): void {
+        /// code
+    }
+```
+
 <h2>Shortcuts</h2>
 
 <h3>Neue Komponente automatisch erstellen</h3>
