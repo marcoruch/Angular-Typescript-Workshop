@@ -167,24 +167,45 @@ NodeJS
 </ul>
 
 In Angular wird die Klasse (Controller Component) geladen und HTML wird durch sie geladen ("berechnet")
-
+<br/>
 Oberste Component ist immer die App-Component
+<br/>
+Components werden verschachtelt und erweitert, endlos (wie Treeview)
+<br/>
+Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen
+<br/>
 
 <h3>Styleguide</h3>
-Component: app.component.ts (wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar)
-
-<h3>Component</h3>
-  <ul>
-<li> templateUrl => für templateUrl</li>
-<li>styleUrls => als Array Stylesheets verlinken</li>
-<li>selector => Präfix wichtig, eindeutig setzen z.B. "CTS" (keine Namespaces, auch hilfreich für AutoImport)</li>
-    </ul>
-
-Components werden verschachtelt und erweitert, endlos (wie Treeview)<br/>
+Wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar<br/>
+Beispiele: <br/>
 <ul>
-<li>Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen</li>
-    </ul>
-    <br/>
+    <li>app.component.ts</li>
+    <li>my-apps-homescreen.component.ts</li>
+</ul>
+<br/>
+
+<h3>Decorators</h3>
+
+Beispiel von den Decorators
+
+```typescript
+@Component({
+  selector: 'app-bank-account',
+  inputs: ['bankName', 'id: account-id'],
+  template: `
+    Bank Name: {{ bankName }}
+    Account Id: {{ id }}
+  `
+})
+```
+
+Decorators stellen metadaten dar, welche der Komponente sagen, wie sie instanziiert wird und sich zu verhalten hat.
+<ul>
+    <li> templateUrl => für templateUrl</li>
+    <li>styleUrls => als Array Stylesheets verlinken</li>
+    <li>selector => Präfix wichtig, eindeutig setzen z.B. "CTS" (keine Namespaces, auch hilfreich für AutoImport)</li>
+</ul>
+
 <h3>Binding</h3>
 Alles ist public<br/>
 Bindings werden mit eckigen Klammern geschrieben<br/>
