@@ -17,8 +17,8 @@ Die Basistypen von TS sind gleich wie die von JavaScript <br/>
     <li>Array (eine Liste von Objekten)</li>
     <li>Any (also Undefinierter Typ, kann alles sein)</li>    
 </ul>
-<br/>
-[Erweiterte Liste von Typen in TS](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+
+[Erweiterte Liste von TS-Typen](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 
 <h3>Variablentypen in TypeScript deklarieren</h3>
 
