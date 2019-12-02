@@ -138,8 +138,8 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 
 
 <h4>for in / for of</h4>
-```html for of: Iteriert wie in foreach von C#```
-```html for in: Iteriert durch Object.keys(obj)```
+<pre>for of: Iteriert wie in foreach von C#</pre><br/>
+<pre>for in: Iteriert durch Object.keys(obj)</pre><br/>
 
 <h2>Shortcuts</h2>
 
