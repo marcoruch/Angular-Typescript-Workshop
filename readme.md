@@ -279,10 +279,10 @@ Beispiel für Injectable
 ```html @Injectable({ providedIn: 'root' })
 
 <h4>Angular HttpClient</h4>
-Beispiel der Verwendung des HttpClient-Services für Requests (Post, Get etc.)
- [Hier mehr Informationen zum HttpClient](https://angular.io/guide/http)<br/>
+Beispiel der Verwendung des HttpClient-Services für Requests (Post, Get etc.)  
 
-```html ```
+
+[Hier mehr Informationen zum HttpClient](https://angular.io/guide/http)
 
 <h4>Beispiel eines Services</h4>
 
