@@ -151,7 +151,7 @@ NodeJS
 <br/>
 
 <h3>Angular Architektur</h3>
-Component basiert
+Angular ist ein Component basiertes JS-Framework<br/>
 <ul>
     <li>View (Html)</li>
     <li>Code (Controller / JS)</li>
@@ -162,16 +162,16 @@ Component basiert
         <li>Logik</li>
         <li>Spezfile</li>
     </ul> 
-    <li>
-    
+    </li>
 </ul>
 <br/>
 
-  <ul>
- <li> Html Property-Binding zu Controller</li>
- <li>Eventbinding</li>
- <li> Alles durch Angular gesteuert (Properties / Events gebunden)</li>
+<ul>
+    <li> Html Property-Binding zu Controller</li>
+    <li>Eventbinding</li>
+    <li> Alles durch Angular gesteuert (Properties / Events gebunden)</li>
 </ul>
+<br/>
 
 In Angular wird die Klasse (Controller Component) geladen und HTML wird durch sie geladen ("berechnet")
 <br/>
