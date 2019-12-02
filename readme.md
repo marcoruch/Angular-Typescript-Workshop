@@ -4,33 +4,33 @@
 
 
 <h2>TS Typen</h2>
-Bool
-Number
-String
-Array
+Bool<br/>
+Number<br/>
+String<br/>
+Array<br/>
 Any
 
 <h3>TS Examples</h3>
 
 
 <h3>Variablentypen</h3>
-<code>
-a = global
-let a = block scope
-var a = function scope
-const a = Konstante
-</code>
+
+<code>a = global</code></br>
+<code>let a = block scope</code></br>
+<code>var a = function scope</code></br>
+<code>const a = Konstante</code></br>
+
 
 <h3>Operatoren</h3>
 
 <h3>Klassen</h3>
-<code>
+<pre>
 export class MeineKlasse {
     // Rumpf der Klasse
     // hier werden Instanzvariablen, Eigenschaften
     // und Methoden definiert
 }
-</code>
+</pre>
 
 <h3>Methoden</h3>
 <code></code>
