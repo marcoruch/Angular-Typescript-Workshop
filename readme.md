@@ -131,6 +131,7 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 
 
 <h4>*ngFor</h4>
+
 ```html 
 <div *ngFor="let name of namenArray"><{{name}}<div>
 ```
