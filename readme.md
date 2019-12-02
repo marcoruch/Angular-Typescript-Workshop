@@ -24,13 +24,13 @@ Any
 <h3>Operatoren</h3>
 
 <h3>Klassen</h3>
-```html 
+<pre>
 export class MeineKlasse {
     // Rumpf der Klasse
     // hier werden Instanzvariablen, Eigenschaften
     // und Methoden definiert
 }
-```
+</pre>
 
 <h3>Methoden</h3>
 ```html ```
