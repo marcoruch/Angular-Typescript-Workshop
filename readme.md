@@ -109,10 +109,10 @@ In Angular wird die Klasse (Controller Component) geladen und HTML wird durch si
 
 Oberste Component ist immer die App-Component
 
-<h2>Styleguide</h2>
+<h3>Styleguide</h3>
 Component: app.component.ts (wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar)
 
-<h2>Component</h2>
+<h3>Component</h3>
   <ul>
 <li> templateUrl => für templateUrl</li>
 <li>styleUrls => als Array Stylesheets verlinken</li>
@@ -163,22 +163,6 @@ Functions müssen innerhalb <bold>"this"</bold> verwenden.
 <pre>for of: Iteriert wie in foreach von C#</pre><br/>
 <pre>for in: Iteriert durch Object.keys(obj)</pre><br/>
 
-<h2>Shortcuts</h2>
-
-<h3>Neue Komponente automatisch erstellen</h3>
-<pre>ng generate component MyCom</pre>
-
-<h3>Starten von App</h3>
-<pre>ng serve --aot</pre><br/>
-
-<desc>Port ist standardmässig 4200</desc><br/>
-<desc>Erstellt Code der das HTML erstellt ahead of time</desc>
-
-<h3>Veröffentlichen / Build</h3>
-<pre>ng build --prod</pre><br/>
-<desc>unbedingt --prod verwenden, da sonst der dev build verwendet wird</desc>
-
-
 
 <h2>Angular Services</h2>
 
@@ -197,3 +181,19 @@ AppModule muss in Provider-Array alle Services enthalten.<br/>
 
 <h4>Angular HttpClient</h4>
 ```html ```
+
+<h2>Shortcuts</h2>
+
+<h3>Neue Komponente automatisch erstellen</h3>
+<pre>ng generate component MyCom</pre>
+
+<h3>Starten von App</h3>
+<pre>ng serve --aot</pre><br/>
+
+<desc>Port ist standardmässig 4200</desc><br/>
+<desc>Erstellt Code der das HTML erstellt ahead of time</desc>
+
+<h3>Veröffentlichen / Build</h3>
+<pre>ng build --prod</pre><br/>
+<desc>unbedingt --prod verwenden, da sonst der dev build verwendet wird</desc>
+
