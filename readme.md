@@ -59,36 +59,52 @@ const a: string = "Das ist eine Konstante"
 
 
 <h3>Operatoren</h3>
+Folgende Operatoren existieren in TS sowie auch JS:
+```typescript
+Content-Erweiterung erfassen
+```
+</br>
 
 <h3>Klassen</h3>
-<pre>
+Der Basic-Syntax für Klassen in TS (auch JS) ist wiefolgt:
+
+```typescript
 export class MeineKlasse {
     // Rumpf der Klasse
     // hier werden Instanzvariablen, Eigenschaften
     // und Methoden definiert
 }
-</pre>
+```
+</br>
 
 <h3>Methoden</h3>
 Beispiel in JavaScript/TypeScript:
 
-```html ```
+```typescript 
+```
+</br>
 
 <h3>Instanzvariablen und Eigenschaften</h3>
 Beispiel in JavaScript/TypeScript:
 
-```html ```
+```typescript
+```
+</br>
 
 <h3>Klassen (Beispiel mit Konstruktor)</h3>
 Beispiel in JavaScript/TypeScript:
 
-```html ```
+```typescript 
+```
+</br>
 
 
 <h3>Arrays und Objects</h3>
 Beispiel in JavaScript/TypeScript:
 
-```html ```
+```typescript 
+```
+</br>
 
 <h2>Entwicklungsumgebung</h2>
 Es wird Visual Studio Code empfohlen
