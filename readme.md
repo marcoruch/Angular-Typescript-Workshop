@@ -132,22 +132,27 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 
 <h4>Property Binding</h4>
 
+Es werden jeweils die Properties aus dem .ts-File ins Markdown abgefüllt. </br>
+Hier verwendet "titletext" aus dem .ts-File die <bold>öffentliche</bold> Variable 'titletext' <br/>
+und 'Name' die ebenso öffentliche Variable 'Name' aus dem selben .ts-File. <br/>
+
 ```html
 <h1>Begrüssung</h1> 
 <p [title]="titletext">  {{ Name }} </p>
 ```
 
-Dabei verwendet "titletext" aus dem .ts-File die <bold>öffentliche</bold> Variable 'titletext' <br/>
-und 'Name' die ebenso öffentliche Variable 'Name' aus dem selben .ts-File. <br/>
-
 
 <h4>Event Binding</h4>
 Functions müssen innerhalb <bold>"this"</bold> verwenden.
+Hier verwendet "click" die aus dem .ts-File stammende <bold>öffentliche</bold> Funktion 'changeNameClick' <br/>
+
 ```html 
 <button type="button" (click)="changeNameClick()">clickme</button>
 ```
 
 <h4>*ngIf</h4>
+
+Hier verwendet "boolWert" die aus dem .ts-File stammende <bold>öffentliche</bold> Variable 'boolWert' <br/>
 
 ```html
 <div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div>
