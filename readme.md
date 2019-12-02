@@ -282,7 +282,7 @@ Beispiel für Injectable
 Beispiel der Verwendung des HttpClient-Services für Requests (Post, Get etc.)  
 
 
-[Hier mehr Informationen zum HttpClient](https://angular.io/guide/http)
+[Mehr Infos zu HttpClient](https://angular.io/guide/http)
 
 <h4>Beispiel eines Services</h4>
 
