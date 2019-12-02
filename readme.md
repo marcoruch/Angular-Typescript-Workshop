@@ -2,7 +2,9 @@
 
 ![angular_github_logo](https://avatars0.githubusercontent.com/u/139426?s=200&v=4 "Angular Logo")
 
-
+[AngularJS Docs](https://docs.angularjs.org/api) <bold>|</bold>
+[TypeScript Docs](https://www.typescriptlang.org/docs/home.html) <bold>|</bold>
+[JavaScript Docs](https://developer.mozilla.org/de/docs/Web/JavaScript)
 
 <h2>Allgemeines</h2>
 Typescript wurde aus JavaScript und C# entworfen
