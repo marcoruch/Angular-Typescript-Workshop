@@ -15,10 +15,10 @@ Any
 
 <h3>Variablentypen</h3>
 
-<code>a = global</code></br>
-<code>let a = block scope</code></br>
-<code>var a = function scope</code></br>
-<code>const a = Konstante</code></br>
+<pre>a = global</pre></br>
+<pre>let a = block scope</pre></br>
+<pre>var a = function scope</pre></br>
+<pre>const a = Konstante</pre></br>
 
 
 <h3>Operatoren</h3>
@@ -33,17 +33,17 @@ export class MeineKlasse {
 </pre>
 
 <h3>Methoden</h3>
-<code></code>
+<pre></pre>
 
 <h3>Instanzvariablen und Eigenschaften</h3>
-<code></code>
+<pre></pre>
 
 <h3>Klassen (Beispiel mit Konstruktor)</h3>
-<code></code>
+<pre></pre>
 
 
 <h3>Arrays und Objects</h3>
-<code></code>
+<pre></pre>
 
 
 <h2>Angular Framework</h2>
@@ -109,34 +109,34 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 
 
 <h4>Property Binding</h4>
-<code>
+<pre>
 <h1>Begrüssung</h1>
 <p [title]="titletext">
     {{ Name }}
 </p>
-</code>
+</pre>
 
 
 <h4>Event Binding</h4>
 Functions müssen innerhalb <bold>"this"</bold> verwenden.
-<code>
+<pre>
 <button type="button" (click)="changeNameClick()">clickme</button>
-</code>
+</pre>
 
 <h4>*ngIf</h4>
-<code>
+<pre>
     <div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div>
-</code>
+</pre>
 
 <h4>*ngFor</h4>
-<code>
+<pre>
 <div *ngFor="let name of namenArray"><{{name}}<div>
-</code>
+</pre>
 
 
 <h4>for in / for of</h4>
-<code>for of: Iteriert wie in foreach von C#</code>
-<code>for in: Iteriert durch Object.keys(obj)</code>
+<pre>for of: Iteriert wie in foreach von C#</pre>
+<pre>for in: Iteriert durch Object.keys(obj)</pre>
 
 <h2>Shortcuts</h2>
 
@@ -163,12 +163,12 @@ Services bzw. die Komponenten können sich dann untereinander austauschen
 AppModule muss in Provider-Array alle Services enthalten.
 
 <h4>Create Service File</h4>
-<code>ng generate service MemoryCalc</code>
+<pre>ng generate service MemoryCalc</pre>
 
 <h4>Vor  </h4>
 
 <h4>Angular Service Injecton</h4>
-<code>@Injectable({ providedIn: 'root' })
+<pre>@Injectable({ providedIn: 'root' })
 
 <h4>Angular HttpClient</h4>
-<code></code>
+<pre></pre>
