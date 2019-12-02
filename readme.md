@@ -1,5 +1,9 @@
 <h1>Angular Typescript Workshop</h1>
 
+![angular_github_logo](https://avatars0.githubusercontent.com/u/139426?s=200&v=4 "Angular Logo")
+
+
+
 <h2>Allgemeines</h2>
 Typescript wurde aus JavaScript und C# entworfen
 
