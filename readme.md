@@ -7,6 +7,8 @@ Typescript wurde aus JavaScript und C# entworfen
 <h2>TypeScript</h2>
 
 <h3>Typen in TypeScript</h3>
+
+[Hier erweiterte Typen von TS](https://www.typescriptlang.org/docs/handbook/advanced-types.html)<br/>
 Bool<br/>
 Number<br/>
 String<br/>
