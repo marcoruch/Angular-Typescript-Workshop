@@ -4,15 +4,14 @@
 Typescript wurde aus JavaScript und C# entworfen
 
 
-<h2>TS Typen</h2>
+<h2>TypeScript</h2>
+
+<h3>Typen in TypeScript</h3>
 Bool<br/>
 Number<br/>
 String<br/>
 Array<br/>
 Any
-
-<h3>TS Examples</h3>
-
 
 <h3>Variablentypen</h3>
 
@@ -46,6 +45,10 @@ export class MeineKlasse {
 <h3>Arrays und Objects</h3>
 ```html ```
 
+<h2>Entwicklungsumgebung</h2>
+Es wird Visual Studio Code empfohlen
+Git / Github verwenden
+
 
 <h2>Angular Framework</h2>
 Open Source JS-Framework
@@ -62,9 +65,7 @@ Angular ist Cross Plattform tauglich - es läuft auf allen Browsern (also Comput
 - Installierbar
 
 
-
-
-<h2>Architektur Node</h2>
+<h3>Architektur Node</h3>
 NodeJS
 <ul>
     <li>NPM</li>
@@ -77,12 +78,7 @@ NodeJS
 </ul>
 <br/>
 
-<h2>Entwicklungsumgebung</h2>
-Es wird Visual Studio Code empfohlen
-Git / Github verwenden
-
-
-<h2>Angular Architektur</h2>
+<h3>Angular Architektur</h3>
 <ul>
     <li>Component basiert</li>
     <ul>
