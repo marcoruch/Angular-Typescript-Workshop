@@ -15,35 +15,35 @@ Any
 
 <h3>Variablentypen</h3>
 
-<pre>a = global</pre></br>
-<pre>let a = block scope</pre></br>
-<pre>var a = function scope</pre></br>
-<pre>const a = Konstante</pre></br>
+```html a = global```</br>
+```html let a = block scope```</br>
+```html var a = function scope```</br>
+```html const a = Konstante```</br>
 
 
 <h3>Operatoren</h3>
 
 <h3>Klassen</h3>
-<pre>
+```html 
 export class MeineKlasse {
     // Rumpf der Klasse
     // hier werden Instanzvariablen, Eigenschaften
     // und Methoden definiert
 }
-</pre>
+```
 
 <h3>Methoden</h3>
-<pre></pre>
+```html ```
 
 <h3>Instanzvariablen und Eigenschaften</h3>
-<pre></pre>
+```html ```
 
 <h3>Klassen (Beispiel mit Konstruktor)</h3>
-<pre></pre>
+```html ```
 
 
 <h3>Arrays und Objects</h3>
-<pre></pre>
+```html ```
 
 
 <h2>Angular Framework</h2>
@@ -109,36 +109,36 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 
 
 <h4>Property Binding</h4>
-<pre>
+```html 
 <h1>Begrüssung</h1>
 <p [title]="titletext">
     {{ Name }}
 </p>
-</pre>
+```
 
 
 <h4>Event Binding</h4>
 Functions müssen innerhalb <bold>"this"</bold> verwenden.
-<pre>
+```html 
 <button type="button" (click)="changeNameClick()">clickme</button>
-</pre>
+```
 
 <h4>*ngIf</h4>
 
 ```html
-<pre><div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div></pre>
+<div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div>
 ```
 
 
 <h4>*ngFor</h4>
-<pre>
+```html 
 <div *ngFor="let name of namenArray"><{{name}}<div>
-</pre>
+```
 
 
 <h4>for in / for of</h4>
-<pre>for of: Iteriert wie in foreach von C#</pre>
-<pre>for in: Iteriert durch Object.keys(obj)</pre>
+```html for of: Iteriert wie in foreach von C#```
+```html for in: Iteriert durch Object.keys(obj)```
 
 <h2>Shortcuts</h2>
 
@@ -165,12 +165,12 @@ Services bzw. die Komponenten können sich dann untereinander austauschen
 AppModule muss in Provider-Array alle Services enthalten.
 
 <h4>Create Service File</h4>
-<pre>ng generate service MemoryCalc</pre>
+```html ng generate service MemoryCalc```
 
 <h4>Vor  </h4>
 
 <h4>Angular Service Injecton</h4>
-<pre>@Injectable({ providedIn: 'root' })
+```html @Injectable({ providedIn: 'root' })
 
 <h4>Angular HttpClient</h4>
-<pre></pre>
+```html ```
