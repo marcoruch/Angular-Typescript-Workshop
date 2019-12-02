@@ -13,12 +13,49 @@ String<br/>
 Array<br/>
 Any
 
-<h3>Variablentypen</h3>
+<h3>Variablentypen in TypeScript deklarieren</h3>
 
-```html a = global```</br>
-```html let a = block scope```</br>
-```html var a = function scope```</br>
-```html const a = Konstante```</br>
+Eine Variable kann ohne Typ deklariert werden, sie übernimmt dann direkt den Typ des zugewiesenen Wertes<br/>
+In folgendem Beispiel übernimmt Sie den Typen von '5' also 'number':
+
+```typescript 
+let myVar = 5
+```
+</br>
+
+Mit Typ werden Variablen so definiert:
+
+```typescript 
+let isDone: boolean = false;
+```
+</br>
+
+
+Je nachdem wie man eine Variable deklariert, ist sie in verschiedenen Scopes ersichtlich:
+
+Globale Variable:
+```typescript 
+a: string = "this will be visible global"
+```
+</br>
+
+Block-Scope gebundene Variable:
+```typescript 
+let a: string = "this will be visible in block scope"
+```
+</br>
+
+Function-Scope gebundene Variable:
+```typescript 
+var a: string = "this will be visible in function scope"
+```
+</br>
+
+Konstante (Im Gegensatz zu einer Variable muss eine Konstante jedoch bei ihrer Deklaration unmittelbar mit einem Wert initialisiert werden)
+```typescript 
+const a: string = "Das ist eine Konstante"
+```
+</br>
 
 
 <h3>Operatoren</h3>
