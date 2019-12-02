@@ -1,6 +1,7 @@
 <h1>Angular Typescript Workshop</h1>
 
-<h2>Typescript wurde aus JavaScript und C# entworfen</h2>
+<h2>Allgemeines</h2>
+Typescript wurde aus JavaScript und C# entworfen
 
 
 <h2>TS Typen</h2>
