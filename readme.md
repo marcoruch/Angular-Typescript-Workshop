@@ -33,16 +33,24 @@ export class MeineKlasse {
 </pre>
 
 <h3>Methoden</h3>
+Beispiel in JavaScript/TypeScript:
+
 ```html ```
 
 <h3>Instanzvariablen und Eigenschaften</h3>
+Beispiel in JavaScript/TypeScript:
+
 ```html ```
 
 <h3>Klassen (Beispiel mit Konstruktor)</h3>
+Beispiel in JavaScript/TypeScript:
+
 ```html ```
 
 
 <h3>Arrays und Objects</h3>
+Beispiel in JavaScript/TypeScript:
+
 ```html ```
 
 <h2>Entwicklungsumgebung</h2>
@@ -184,9 +192,12 @@ AppModule muss in Provider-Array alle Services enthalten.<br/>
 <h4>Vor  </h4>
 
 <h4>Angular Service Injecton</h4>
+Beispiel für Injectable
 ```html @Injectable({ providedIn: 'root' })
 
 <h4>Angular HttpClient</h4>
+Beispiel der Verwendung des HttpClient-Services für Requests (Post, Get etc.)
+
 ```html ```
 
 <h2>Shortcuts</h2>
