@@ -65,11 +65,16 @@ Angular ist Cross Plattform tauglich - es läuft auf allen Browsern (also Comput
 
 <h2>Architektur Node</h2>
 NodeJS
-- NPM
-- Angular CLI
-- - webpack
-- - ngc (Angular Compiler) => Sorgt auch für Schnelligkeit der Applikation
-- - - TypeScript 
+<ul>
+    <li>NPM</li>
+<li>Angular CLI</li>
+    <ul>
+<li>webpack</li>
+<li>ngc (Angular Compiler) => Sorgt auch für Schnelligkeit der Applikation</li>
+<li>TypeScript </li>
+    </ul>
+</ul>
+<br/>
 
 <h2>Entwicklungsumgebung</h2>
 Es wird Visual Studio Code empfohlen
