@@ -137,6 +137,8 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 <p [title]="titletext">  {{ Name }} </p>
 ```
 
+Dabei verwendet "titletext" aus dem .ts-File die <bold>öffentliche</bold> Variable 'titletext' <br/>
+und 'Name' die ebenso öffentliche Variable 'Name' aus dem selben .ts-File. <br/>
 
 
 <h4>Event Binding</h4>
