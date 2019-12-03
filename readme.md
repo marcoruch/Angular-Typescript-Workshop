@@ -366,7 +366,6 @@ import { Component } from '@angular/core';
     selector: 'app-my-com',
     templateUrl: './my-com-component.html', // hier wieder trailing comma für nächsten Entwickler
 })
-
 export class MyComComponent {
     name = 'Marco';
     titletext = 'Name des Autors';
@@ -391,7 +390,6 @@ import { Component } from '@angular/core';
     selector: 'app-my-com',
     templateUrl: './my-com-component.html', // hier wieder trailing comma für nächsten Entwickler
 })
-
 export class MyComComponent {
     name = 'Marco';
     titletext = 'Name des Autors';
@@ -423,7 +421,6 @@ import { Component } from '@angular/core';
     selector: 'app-condition',
     templateUrl: './condition.component.html', // hier wieder trailing comma für nächsten Entwickler
 })
-
 export class LoopComponent {
     showMessage = false;
     
@@ -450,7 +447,6 @@ import { Component } from '@angular/core';
     selector: 'app-loop',
     templateUrl: './loop.component.html', // hier wieder trailing comma für nächsten Entwickler
 })
-
 export class LoopComponent {
     namenArray = ["Marco", "Kevin", "Dominik", "Sabrina"];
 }
@@ -539,7 +535,9 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { DateTime } from '../models/date-time';
 
-@Injectable({ providedIn: 'root' })
+@Injectable({ 
+    providedIn: 'root', // hier wieder trailing Komma
+})
 export class DateTimeService {
     constructor(private httpClient: HttpClient) { }
 
@@ -570,12 +568,21 @@ Lifecycle-Methode ngOnInit:
 
 Beispiel ngOnInit:
 
-```javascript
-    import { Component, OnInit } from '@angular/core';
+```typescript
+import { Component, OnInit } from '@angular/core';
+
+
+@Component({
+  selector: 'app-mycomponent',
+})
+export class MyComponent{
+
+    constructor(private dateTimeService: DateTimeService) { }
 
     ngOnInit(): void {
-        /// code
+        this.dateTimeService.getDateTime().subscribe(date => this.datetime = date.toISOString()
     }
+}
 ```
 
 <h2>Shortcuts</h2>
