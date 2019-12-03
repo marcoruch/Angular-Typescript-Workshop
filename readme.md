@@ -130,13 +130,14 @@ Angular JS hatte einige Schwachstellen die durch Angular behoben wurden.<br/>
 September 2016 veröffentlicht durch Google.
 
 <h3>Availability</h3>
-PWA<br/>
 Angular ist Cross Plattform tauglich - es läuft auf allen Browsern (also Computer, Tablet, Smartphones)<br/>
 Das bedeutet: <bold>1x Programmieren, überall verfügbar</bold>
 
 <h3>PWA Grundsätze</h3>
-- Offline verfügbar
-- Installierbar
+<ul>
+    <li>Offline verfügbar</li>
+    <li>Installierbar</li>
+</ul>
 
 
 <h3>Architektur Node</h3>
