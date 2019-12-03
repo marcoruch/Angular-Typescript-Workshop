@@ -314,6 +314,8 @@ Hier sieht man zum Beispiel, dass die "owner-accounts"-Komponente in den "owner-
 
 [Bild von Code-Maze](https://code-maze.com/angular-best-practices/)
 
+![Bild mit Erklärungen der einzelnen Struktur-Teilen](https://raw.githubusercontent.com/marcoruch/Angular-Typescript-Workshop/master/AngularStruktur.png)
+
 <h3>Styleguide</h3>
 Wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar<br/>
 Beispiele: <br/>
