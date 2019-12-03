@@ -72,7 +72,8 @@ const a: string = "Das ist eine Konstante"
 
 <h3>Operatoren</h3>
 Folgende Operatoren existieren in TS sowie auch JS:
-```typescript
+
+```typescript 
 // arithmetische operatoren
 let a = 10;
 let b = 5;
@@ -106,7 +107,6 @@ let surname = 'Ruch';
 string myString = `Ich heisse ${name} ${surname}`; // Resultat: Ich heisse Marco Ruch
 
 // In den ${} Formatfeldern können auch Methoden mit Rückgabewert eingefügt werden 
-
 ```
 </br>
 
