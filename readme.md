@@ -185,6 +185,15 @@ Components werden verschachtelt und erweitert, endlos (wie Treeview)
 Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen
 <br/>
 
+<h4>Ordnerstruktur Beispiel für Komponenten</h4>
+Komponenten gehören jeweils in einen eigenen Ordner.<br/>
+Zusammengehörende Komponenten brauchen jeweils einen 'Eltern'-Ordner, insofern sie nur zusammen verwendet werden.</br>
+Hier sieht man zum Beispiel, dass die "owner-accounts"-Komponente in den "owner-details"-Komponentenordner untergeordnet ist, um Komponenten zu sammeln, welche in den Details angezeigt werden.<br/>
+
+![Ordnerstruktur Beispiel](https://code-maze.com/wp-content/uploads/2018/05/01-Folder-structure.png "Ordernsturktur Angularkomponenten")
+
+[Bild von Code-Maze](https://code-maze.com/angular-best-practices/)
+
 <h3>Styleguide</h3>
 Wichtig Kleinschreibung da sonst auf Mac nicht kompilierbar<br/>
 Beispiele: <br/>
