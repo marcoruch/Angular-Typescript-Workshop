@@ -14,8 +14,7 @@ Typescript wurde aus JavaScript und C# entworfen
 
 <h3>Typen in TypeScript</h3>
 
-Die Basistypen von TS sind gleich wie die von JavaScript ([Erweiterte Liste von TS-Typen](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
-)<br/>
+Die Basistypen von TS sind gleich wie die von JavaScript ([Erweiterte Liste von TS-Typen](https://www.typescriptlang.org/docs/handbook/advanced-types.html))<br/>
 
 <ul>
     <li>Bool (ein Boolesche Wert)</li>
