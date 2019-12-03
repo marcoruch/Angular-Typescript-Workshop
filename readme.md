@@ -344,9 +344,9 @@ Decorators stellen metadaten dar, welche der Komponente sagen, wie sie instanzii
 </ul>
 
 <h3>Binding</h3>
-Alles ist public<br/>
-Bindings werden mit eckigen Klammern geschrieben<br/>
-Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ Obj.Prop }}) - à la 'innerHtml'<br/>
+Instanzvariablen (public) welche im Controller gespeichert sind, sollen in der View angezeigt werden <br/>
+Property Bindings werden mit eckigen Klammern geschrieben<br/>
+Textausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ Obj.Prop }}) - à la 'innerHtml'<br/>
 
 
 <h4>Property Binding</h4>
@@ -354,6 +354,20 @@ Testausgaben werden in doppelt geschweiften Klammern geschrieben (wie React {{ O
 Es werden jeweils die Properties aus dem .ts-File ins Markdown abgefüllt. </br>
 Hier verwendet "titletext" aus dem .ts-File die <bold>öffentliche</bold> Variable 'titletext' <br/>
 und 'Name' die ebenso öffentliche Variable 'Name' aus dem selben .ts-File. <br/>
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-my-com',
+    templateUrl: './my-com-component.html', // hier wieder trailing comma für nächsten Entwickler
+})
+
+export class MyComComponent {
+    name = 'Marco';
+    titletext = 'Name des Autors';
+}
+```
 
 ```html
 <h1>Begrüssung</h1> 
@@ -363,10 +377,35 @@ und 'Name' die ebenso öffentliche Variable 'Name' aus dem selben .ts-File. <br/
 
 <h4>Event Binding</h4>
 Functions müssen innerhalb <bold>"this"</bold> verwenden.
-Hier verwendet "click" die aus dem .ts-File stammende <bold>öffentliche</bold> Funktion 'changeNameClick' <br/>
+Hier verwendet "click" die aus dem .ts-File stammende <bold>öffentliche</bold> Funktion 'changeNameClick'.<br/>
+Die Komponente wird nach Klicken der Schaltfläche neu gerendert, da sich eine Property mit Binding geändert hat. <br/>
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-my-com',
+    templateUrl: './my-com-component.html', // hier wieder trailing comma für nächsten Entwickler
+})
+
+export class MyComComponent {
+    name = 'Marco';
+    titletext = 'Name des Autors';
+    
+    changeNameClick(): void {
+        this.name = 'Christian';
+    }
+}
+```
 
 ```html 
-<button type="button" (click)="changeNameClick()">clickme</button>
+<h1>Begrüssung</h1> 
+<p [title]="titletext">  
+    {{ Name }} 
+</p>
+<button type="button" (click)="changeNameClick()">
+    Name ändern
+</button>
 ```
 
 <h4>*ngIf</h4>
