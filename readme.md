@@ -295,11 +295,13 @@ Angular ist ein Component basiertes JS-Framework<br/>
 
 In Angular wird die Klasse (Controller Component) geladen und HTML wird durch sie geladen ("berechnet")
 <br/>
-Oberste Component ist immer die App-Component
+Oberste Component ist immer die App-Component (/src/app/app.component.ts) 
 <br/>
-Components werden verschachtelt und erweitert, endlos (wie Treeview)
+Jede Angular-Applikation ist ein Baum von Components.
 <br/>
-Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen
+Komplette Applikationen können so in kleinere Einheiten zerlegt werden
+<br/>
+Allgemeine Komponenten in einem 'Shared'-Ordner auf oberster Ebene ablegen.
 <br/>
 
 <h4>Ordnerstruktur Beispiel für Komponenten</h4>
