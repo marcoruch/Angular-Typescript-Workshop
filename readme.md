@@ -414,14 +414,47 @@ export class MyComComponent {
 
 <h4>*ngIf</h4>
 
-Hier verwendet "boolWert" die aus dem .ts-File stammende <bold>öffentliche</bold> Variable 'boolWert' <br/>
+Hier verwendet "showMessage" die aus dem .ts-File stammende <bold>öffentliche</bold> Variable 'showMessage' <br/>
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-condition',
+    templateUrl: './condition.component.html', // hier wieder trailing comma für nächsten Entwickler
+})
+
+export class LoopComponent {
+    showMessage = false;
+    
+    handleToggleClick(): void {
+        showMessage = !showMessage;
+    }
+}
+```
 
 ```html
-<div *ngIf="boolWert">Man sieht mich nur wenn boolWert = true ist.</div>
+<div *ngIf="showMessage">Man sieht mich nur wenn showMessage = true ist</div>
+<button type="button" (click)="handleToggleClick()">
+    Toggle View
+</button>
 ```
 
 
 <h4>*ngFor</h4>
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-loop',
+    templateUrl: './loop.component.html', // hier wieder trailing comma für nächsten Entwickler
+})
+
+export class LoopComponent {
+    namenArray = ["Marco", "Kevin", "Dominik", "Sabrina"];
+}
+```
 
 ```html 
 <div *ngFor="let name of namenArray"><{{name}}<div>
