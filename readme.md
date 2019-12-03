@@ -245,7 +245,7 @@ NodeJS
         <li>ngc (Angular Compiler) => Sorgt auch für Schnelligkeit der Applikation
             <ul>
                 <li>TypeScript </li>
-            <ul>
+            </ul>
         </li>
     </ul>
 </ul>
