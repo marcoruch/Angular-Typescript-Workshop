@@ -239,11 +239,14 @@ Das bedeutet: <bold>1x Programmieren, überall verfügbar</bold>
 NodeJS
 <ul>
     <li>NPM</li>
-<li>Angular CLI</li>
+    <li>Angular CLI</li>
     <ul>
-<li>webpack</li>
-<li>ngc (Angular Compiler) => Sorgt auch für Schnelligkeit der Applikation</li>
-<li>TypeScript </li>
+        <li>webpack</li>
+        <li>ngc (Angular Compiler) => Sorgt auch für Schnelligkeit der Applikation
+            <ul>
+                <li>TypeScript </li>
+            <ul>
+        </li>
     </ul>
 </ul>
 <br/>
