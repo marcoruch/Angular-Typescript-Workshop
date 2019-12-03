@@ -514,7 +514,38 @@ AppModule muss in Provider-Array alle Services enthalten.<br/>
 <h4>Create Service File</h4>
 <pre>ng generate service MemoryCalc</pre><br/>
 
-<h4>Vor  </h4>
+<h4>Angular Service erstellen</h4>
+
+Die Variable memory bleibt während der Gesamten Laufzeit erhalten, sowie die ganze Instanz dieser Klasse
+
+```typescript
+import { Injectable } from '@angular/core';
+
+@Injectable({
+    providedIn: 'root', //  EMpfehlung in welchem Modul der Service hinzugefügt werden soll --- trailing Komma nicht vergessen
+)}
+
+export class MemoryCalcService {
+    private memory: number;
+    
+    /*
+    * Addiert einen Wert zum vorherhigen Wert hinzu
+    * @param sum Summand welcher zum Speicher hinzugefügt wird (So deklariert man Dokumentation für Inputparameter)
+    */
+    add(sum: number): number {
+        this.memory += sum;
+        return this.memory;
+    }
+    
+    /*
+    * Setzt gespeicherten Wert auf 0 zurück
+    */
+    reset(): void {
+        thius.memory = 0;
+    }
+}
+```
+
 
 <h4>Angular Service Injecton</h4>
 Beispiel für Injectable
