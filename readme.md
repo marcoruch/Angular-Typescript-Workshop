@@ -73,7 +73,40 @@ const a: string = "Das ist eine Konstante"
 <h3>Operatoren</h3>
 Folgende Operatoren existieren in TS sowie auch JS:
 ```typescript
-Content-Erweiterung erfassen
+// arithmetische operatoren
+let a = 10;
+let b = 5;
+let result: number;
+
+result = a + b; // Summe 15
+result = a - b; // Differenz 5
+result = a * b; // Produkt: 50
+result = a / b; // Quotient: 2
+result = a % b; // Restwert: 0
+a++; // a ist ab jetzt 11
+b--; // b ist ab jetzt 4
+
+
+// zuweisende operatoren
+result = a; // Zuweisung: Linker Wert wird von rechtem überschrieben.
+result += a; // ist wie result + a
+result -= a; // ist wie result - a
+result *= a; // ist wie result * a
+result /= a; // ist wie result / a
+
+// Strings
+let string = 'abc' + 'def'; // ergibt abcdef
+let stringAdditional = string + ' abc'; // ergibt abcdef abc
+
+// Interpolation
+
+let name = 'Marco';
+let surname = 'Ruch';
+
+string myString = `Ich heisse ${name} ${surname}`; // Resultat: Ich heisse Marco Ruch
+
+// In den ${} Formatfeldern können auch Methoden mit Rückgabewert eingefügt werden 
+
 ```
 </br>
 
@@ -93,6 +126,17 @@ export class MeineKlasse {
 Beispiel in JavaScript/TypeScript:
 
 ```typescript 
+export class MeineKlasse {
+
+    public meineMethode(): void {
+        // Methode 'addieren' in eigener Klasse aufrufen:
+        console.log(this.addieren(1,2)); // 3
+    }
+    
+    private addieren(num1: number, num2: number): number {
+        return num1 + num2;
+    }
+}
 ```
 </br>
 
@@ -100,6 +144,18 @@ Beispiel in JavaScript/TypeScript:
 Beispiel in JavaScript/TypeScript:
 
 ```typescript
+export class MeineKlasse {
+
+    private instanzvariable = "a";
+    
+    public get eigenschaft(): string {
+        return this.instanzvariable;
+    }
+    
+    public set eigenschaft(v: string) {
+        this.instanzvariable = v;
+    }
+}
 ```
 </br>
 
@@ -107,6 +163,30 @@ Beispiel in JavaScript/TypeScript:
 Beispiel in JavaScript/TypeScript:
 
 ```typescript 
+export class Person {
+    private _name: string;
+    privaste _ahvnr: string;
+    
+    public get Name(): string { return this._name }
+    public set Name(v: string) { this._name = v }
+    
+    public get AhvNr(): string { return this._ahvnr }
+    
+    constructor(name: string, ahvNr: string) {
+        this._name = name;
+        this._ahvnr = ahvNr;
+    }
+}
+
+
+// Anderes File
+
+import { Person } from './Person';
+
+let p = new Person('Marco Ruch', '756.1234...');
+console.log(p.Name); // gibt Marco Ruch aus
+p.Name = 'Peter Meier'; // Name kann überschrieben werden
+p.AhvNr = '756.4321...'; // AHV-Nr kann nicht üverschrieben werden
 ```
 </br>
 
@@ -115,6 +195,22 @@ Beispiel in JavaScript/TypeScript:
 Beispiel in JavaScript/TypeScript:
 
 ```typescript 
+// Arrays
+let arr = [5,12,3,2];
+
+// Wert an bestimmter Stelle ausgeben
+console.log(arr[2]); // Ausgabe: 3
+
+// Objects
+let obj = {
+    nachname: "Muster",
+    vorname: "Peter", // , nach letzem member setzen, Trailing Commas sind häufig verwendeter Syntax
+}
+
+// Member ausgeben
+console.log(obj.nachname); // folgendes wird ausgegeben: Muster
+console.log(obj['vorname']); // folgendes wird ausgegeben: Peter
+
 ```
 </br>
 
