@@ -301,6 +301,8 @@ export class ChildComponent {
 }
 ```
 
+[Weitere Möglichkeiten Daten auszutauschen](https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/)
+
 
 <h2>Angular Services</h2>
 
