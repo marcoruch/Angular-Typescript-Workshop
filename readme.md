@@ -249,6 +249,25 @@ NodeJS
         </li>
     </ul>
 </ul>
+
+<h4>Node</h4>
+Plattform zur Ausführung von JavaScript, basiert auf "V8" der JavaScriptLaufzeitumgebung die ursprünglich für Google Chrome entwickelt wurde
+</br>
+<h4>npm</h4>
+Package Manager für Node.js welcher unter anderem das Herunterladen von Software für Node.js, so wie auch die Angular CLI oder TypeScript 
+</br>
+<h4>Angular CLI</h4>
+Sammlung von Programmen welche die Entwicklung von AngularApplikationen massiv vereinfacht 
+</br>
+<h4>ngc</h4>
+Ahead-of-time (AoT) Compiler für Angular, welcher optimale Geschwindigkeit ermöglicht 
+</br>
+<h4>TypeScript</h4>
+TypeScript Compiler (tsc) welcher Sourcecode von TypeScript in ECMAScript wandelt 
+</br>
+<h4>webpack</h4>
+Optimierung von Webapplikationen in schlanke und eﬃziente Pakete
+</br>
 <br/>
 
 <h3>Angular Architektur</h3>
