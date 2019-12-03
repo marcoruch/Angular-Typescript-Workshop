@@ -120,19 +120,19 @@ Beispiel in JavaScript/TypeScript:
 </br>
 
 <h2>Entwicklungsumgebung</h2>
-Es wird Visual Studio Code empfohlen
+Es wird Visual Studio Code empfohlen<br/>
 Git / Github verwenden
 
 
 <h2>Angular Framework</h2>
-Open Source JS-Framework
-Angular JS hatte einige Schwachstellen die durch Angular behoben wurden.
+Open Source JS-Framework<br/>
+Angular JS hatte einige Schwachstellen die durch Angular behoben wurden.<br/>
 September 2016 veröffentlicht durch Google.
 
 <h3>Availability</h3>
-PWA
-Angular ist Cross Plattform tauglich - es läuft auf allen Browsern (also Computer, Tablet, Smartphones)
-1x Programmieren, überall verfügbar
+PWA<br/>
+Angular ist Cross Plattform tauglich - es läuft auf allen Browsern (also Computer, Tablet, Smartphones)<br/>
+Das bedeutet: <bold>1x Programmieren, überall verfügbar</bold>
 
 <h3>PWA Grundsätze</h3>
 - Offline verfügbar
