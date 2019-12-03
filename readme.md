@@ -261,6 +261,46 @@ Hier verwendet "boolWert" die aus dem .ts-File stammende <bold>öffentliche</bol
 <pre>for of: Iteriert wie in foreach von C#</pre><br/>
 <pre>for in: Iteriert durch Object.keys(obj)</pre><br/>
 
+<h4>Properties von Parent zu Child-Component überliefern</h4>
+
+parent-component.ts
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-parent',
+  template: `
+    <app-child [childMessage]="parentMessage"></app-child>
+  `,
+  styleUrls: ['./parent.component.css']
+})
+export class ParentComponent{
+  parentMessage = "message from parent"
+  constructor() { }
+}
+```
+
+child-component.ts
+```typescript
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  template: `
+      Say {{ message }}
+  `,
+  styleUrls: ['./child.component.css']
+})
+export class ChildComponent {
+
+  @Input() childMessage: string;
+
+  constructor() { }
+
+}
+```
+
 
 <h2>Angular Services</h2>
 
